@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6600186530243219528}
   - component: {fileID: 1155149837870655700}
   - component: {fileID: 6607782364043813218}
+  - component: {fileID: 5477084426261201094}
   m_Layer: 0
   m_Name: Ring
   m_TagString: Untagged
@@ -127,3 +128,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c22847a0c6bb5b49998f9bb7f87431e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Coin
+--- !u!114 &5477084426261201094
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3829061149208726015}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e34931f9152b40d4ca542bb65a4e82d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UI
+  sonicController: {fileID: 0}
+  ringsText: {fileID: 0}
